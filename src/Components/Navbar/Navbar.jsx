@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-      <h1 className='tag'>Harikesh</h1>
+      <img className='tag' src="images/Harikesh-logo.png" alt="" />
       <SlMenu onClick={openMenu} className='nav-mob-open'/>
       <ul ref={menuRef} className="nav-menu">
         <RxCross2 onClick={closeMenu} className='nav-mob-close'/>

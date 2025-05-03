@@ -7,31 +7,29 @@ function Footer() {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <h1>Harikesh</h1>
+          <img src="images/Harikesh-logo.png" alt="" />
           <p>
-            I am a frontend developer from, USA with 10 years of experience in
-            companies like Microsoft, Tesla and Apple.
+            I’m a frontend developer from India with 4 months of experience
+            building user-friendly websites.
           </p>
         </div>
         <div className="footer-top-right">
-            <div className="footer-email-input">
-                <LuUserRound/>
-                <input type="email" placeholder="Enter Your Email"/>
-            </div>
-            <div className="footer-subscribe">
-                Subscribe
-            </div>
+          <div className="footer-email-input">
+            <LuUserRound />
+            <input type="email" placeholder="Enter Your Email" />
+          </div>
+          <div className="footer-subscribe">Subscribe</div>
         </div>
       </div>
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">
-        © 2023 Alex Bennett. All rights reserved.
+          © 2023 Harikesh Kumar. All rights reserved.
         </p>
         <div className="footer-bottom-right">
-            <p>Term of Services</p>
-            <p>Privacy Policy</p>
-            <p>Connect with me</p>
+          <p>Term of Services</p>
+          <p>Privacy Policy</p>
+          <p>Connect with me</p>
         </div>
       </div>
     </div>

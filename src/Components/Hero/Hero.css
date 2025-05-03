@@ -10,6 +10,9 @@
   margin-top: 50px;
   border-radius: 50%;
   width: 15rem;
+  height: 15rem;
+  object-fit: cover; 
+  display: block;
 }
 
 .hero h1 {
@@ -43,7 +46,7 @@
 }
 
 .hero-connect {
-  padding: 20px 65px;
+  padding: 20px 45px;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
   cursor: pointer;

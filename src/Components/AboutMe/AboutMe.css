@@ -76,8 +76,13 @@
   
   .about-stats div {
     margin: 1rem;
+    transition: 0.5s;
   }
   
+  .about-stats div:hover{
+    transform: scale(1.05);
+  }
+
   .gradient-text {
     background: linear-gradient(to right, #8b5cf6, #f97316);
     -webkit-background-clip: text;

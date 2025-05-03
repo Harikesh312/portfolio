@@ -114,13 +114,20 @@
   }
 
   .services-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 1.5rem; 
+    grid-auto-rows: 1fr;
   }
 
   .service-card {
-    padding: 1.5rem; 
+    padding: 1rem; 
     border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
   }
 
   .service-number {
@@ -131,15 +138,25 @@
   .service-title {
     font-size: 1.5rem; 
     margin-bottom: 1rem; 
+    text-align: center;
   }
 
   .service-description {
     font-size: 1rem; 
-    line-height: 1.5; 
-    margin-bottom: 1.5rem; 
+    line-height: 1.4; 
+    margin-bottom: 1.4rem; 
+    text-align: center;
   }
 
   .readMore {
     font-size: 0.9rem;
+    margin-top: auto;
+  }
+}
+
+@media (max-width: 490px){
+  .service-card{
+    height: 380px;
+    width: 160px;
   }
 }

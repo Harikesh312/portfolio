@@ -3,35 +3,32 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   const skills = [
-    { name: "HTML & CSS", level: "50%" },
-    { name: "React JS", level: "80%" },
-    { name: "JavaScript", level: "60%" },
-    { name: "React JS", level: "70%" },
+    { name: "HTML & CSS", level: "70%" },
+    { name: "React JS & Redux", level: "60%" },
+    { name: "JavaScript", level: "65%" },
+    { name: "Tailwind Css", level: "50%" },
+    { name: "Java and C", level: "55%" },
   ];
 
   return (
     <section id="about" className="about-section">
       <div className="about-container">
         <div className="about-image">
-          <img
-            src="images/character-img.jpg"
-            alt="Profile"
-          />
+          <img src="images/character-img.jpg" alt="Profile" />
         </div>
         <div className="about-content">
           <h2 className="about-title">
             About <span>me</span>
           </h2>
           <p>
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I’m a Frontend Developer with a strong focus on building fast,
+            responsive, and user-friendly websites. As a B.Tech CSE student, I
+            combine academic knowledge with hands-on project experience to craft
+            clean, modern interfaces.
           </p>
           <p>
-            My passion for frontend development is not only reflected in my
-            extensive experience but also in the enthusiasm and dedication I
-            bring to each project.
+            My passion for frontend development shows in the creativity and
+            attention to detail I bring to every project I build.
           </p>
           <div className="skills">
             {skills.map((skill, index) => {
@@ -54,23 +51,23 @@ const AboutMe = () => {
       <div className="about-stats">
         <div>
           <h3>
-            <span className="gradient-text">10+</span>
+            <span className="gradient-text">4+</span>
           </h3>
-          <p>YEARS OF EXPERIENCE</p>
+          <p>MONTHS OF EXPERIENCE</p>
         </div>
         <hr />
         <div>
           <h3>
-            <span className="gradient-text">90+</span>
+            <span className="gradient-text">6+</span>
           </h3>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div>
           <h3>
-            <span className="gradient-text">15+</span>
+            <span className="gradient-text">3+</span>
           </h3>
-          <p>HAPPY CLIENTS</p>
+          <p>HACKATHONS PARTICIPATED</p>
         </div>
       </div>
     </section>

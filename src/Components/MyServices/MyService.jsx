@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 import './MyService.css'; 
 
 const serviceData = [
-    { id: '01', title: 'Web design', description: 'Web development is the process of building, programming.' },
-    { id: '02', title: 'Graphics design', description: 'Web development is the process of building, programming.' },
-    { id: '03', title: 'Social media', description: 'Web development is the process of building, programming.' },
-    { id: '04', title: 'App design', description: 'Web development is the process of building, programming.' },
-    { id: '05', title: 'Digital marketing', description: 'Web development is the process of building, programming.' },
-    { id: '06', title: 'Content writing', description: 'Web development is the process of building, programming.' },
+    { id: '01', title: 'Website Design', description: 'Designing clean, modern, and responsive website layouts that deliver a great user experience and reflect your brand identity.' },
+    { id: '02', title: 'Frontend Development', description: 'Building interactive websites using HTML, CSS, JavaScript, and React for smooth user experiences.' },
+    { id: '03', title: 'Social media', description: 'Creating eye-catching graphics for platforms like Instagram, Facebook, and LinkedIn to boost your online presence.' },
+    { id: '04', title: 'Branding', description: 'Designing brand elements like logos, color palettes, and typography to establish a consistent and memorable visual identity' },
+    { id: '05', title: 'UI/UX Design', description: 'Designing intuitive user interfaces and experiences for websites and apps, ensuring ease of use and visual appeal.' },
+    { id: '06', title: 'Landing Page Design', description: 'Designing landing pages for marketing, product launches, and lead generation.' },
 ];
 
 const ServiceCard = ({ service }) => {
@@ -24,7 +24,7 @@ const ServiceCard = ({ service }) => {
                 <span className="service-number">{service.id}</span>
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-description">{service.description}</p>
-                <p className='readMore'>Read More </p>
+                <p className='readMore'>Let’s Collaborate.. </p>
             </div>
         </motion.div>
     );
