@@ -94,7 +94,7 @@
         align-items: center;
         margin-left: 5px;
         flex-direction: row; 
-        gap: 2px; 
+        gap: 4px; 
         padding: 10px 15px; 
         width: 100%; 
         max-width: 400px; 
@@ -102,14 +102,14 @@
     }
     .footer-email-input input {
         flex: 1; 
-        width: 10rem;
+        width: 8rem;
         font-size: 16px; 
-        padding: 10px; 
+        padding: 3px; 
         border-radius: 25px; 
     }
     .footer-subscribe {
-        font-size: 16px; 
-        padding: 18px 36px; 
+        font-size: 12px; 
+        padding: 14px 30px; 
         border-radius: 25px; 
         background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
         cursor: pointer;
