@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-top-left">
           <img src="images/Harikesh-logo.png" alt="" />
           <p>
-            I’m a frontend developer from India with 4 months of experience
+            I’m a frontend developer from India with 4 months of Practice
             building user-friendly websites.
           </p>
         </div>

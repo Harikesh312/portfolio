@@ -53,7 +53,7 @@ const AboutMe = () => {
           <h3>
             <span className="gradient-text">4+</span>
           </h3>
-          <p>MONTHS OF EXPERIENCE</p>
+          <p>MONTHS OF PRACTICE</p>
         </div>
         <hr />
         <div>

@@ -10,8 +10,8 @@ function Hero() {
         <span>I'm Harikesh Kumar,</span>a Passionate Frontend Developer.{" "}
       </h1>
       <p>
-        I’m a frontend developer from India with 4 months of experience building
-        user-friendly websites.
+        Aspiring frontend developer, sharpening my skills by building real-world
+        projects and exploring modern web technologies.
       </p>
 
       <div className="hero-action">
@@ -23,7 +23,7 @@ function Hero() {
 
         <div className="hero-button hero-resume">
           <a
-            href="https://drive.google.com/file/d/10I2rEnm5O25WtewB7HHZQMCoSr5dJoEH/view?usp=drive_link"
+            href="https://drive.google.com/file/d/14qJv-PW6fqRvUOfkU1X5WrCaPDHJ9sUC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

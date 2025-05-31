@@ -11,7 +11,7 @@ function MyWork() {
       </div>
       <div className="mywork-container">
         {MyWorkData.map((work,index)=>{
-            return <img key={index} src={work.w_img} alt="" />
+            return <a href={work.w_link} key={index}><img src={work.w_img} alt="" /></a>
         })}
       </div>
       <div className="mywork-showmore">
