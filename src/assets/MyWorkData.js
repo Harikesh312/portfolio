@@ -14,12 +14,14 @@ const MyWorkData = [
     {
         w_no:3,
         w_name:"web design",
-        w_img:"images/todo-list.png"
+        w_img:"images/todo-list.png",
+        w_link:"https://to-do-harikesh.netlify.app/"
     },
     {
         w_no:4,
         w_name:"web design",
-        w_img:"images/weather-app.png"
+        w_img:"images/weather-app.png",
+        w_link:"https://weather-harikesh.netlify.app/"
     },
     {
         w_no:5,
