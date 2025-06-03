@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contactForm.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+  const formRef = useRef(null);
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -32,6 +34,7 @@ const Contact = () => {
         draggable: true,
         progress: undefined,
       });
+      formRef.current.reset();
     }
   };
 
@@ -51,7 +54,7 @@ const Contact = () => {
         >
           Let's Connect
         </h2>
-        <form onSubmit={onSubmit} className="contact-form">
+        <form ref={formRef} onSubmit={onSubmit} className="contact-form">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" placeholder="Your Message" required />
