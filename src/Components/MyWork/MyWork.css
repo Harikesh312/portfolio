@@ -50,11 +50,19 @@
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 80px;
-    transition: 0.6s;
     cursor: pointer;
 }
 
-.mywork-showmore:hover{
+.mywork-showmore a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: 0.6s;
+}
+
+.mywork-showmore a:hover{
     gap: 30px;
     transition: 0.6s;
 }
