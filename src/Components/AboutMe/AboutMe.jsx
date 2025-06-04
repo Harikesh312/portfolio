@@ -4,8 +4,8 @@ import "./AboutMe.css";
 const AboutMe = () => {
   const skills = [
     { name: "HTML & CSS", level: "70%" },
-    { name: "React JS & Redux", level: "60%" },
-    { name: "JavaScript", level: "65%" },
+    { name: "JavaScript", level: "60%" },
+    { name: "React JS & Redux", level: "65%" },
     { name: "Tailwind Css", level: "50%" },
     { name: "Java and C", level: "55%" },
   ];
