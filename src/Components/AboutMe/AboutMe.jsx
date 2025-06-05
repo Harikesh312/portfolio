@@ -3,11 +3,12 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   const skills = [
-    { name: "HTML & CSS", level: "70%" },
-    { name: "JavaScript", level: "60%" },
-    { name: "React JS & Redux", level: "65%" },
-    { name: "Tailwind Css", level: "50%" },
-    { name: "Java and C", level: "55%" },
+    { name: "HTML & CSS", levelText: "Advanced" },
+    { name: "JavaScript", levelText: "Intermediate" },
+    { name: "React JS & Redux", levelText: "Intermediate" },
+    { name: "Tailwind CSS", levelText: "Intermediate" },
+    { name: "Java & C", levelText: "Beginner" },
+    { name: "SQL & DBMS", levelText: "Beginner" },
   ];
 
   return (
@@ -22,7 +23,7 @@ const AboutMe = () => {
           </h2>
           <p>
             I’m a Frontend Developer with a strong focus on building fast,
-            responsive, and user-friendly websites. As a B.Tech CSE student, I
+            responsive, and user-friendly websites. As a B.Tech CSE student I
             combine academic knowledge with hands-on project experience to craft
             clean, modern interfaces.
           </p>
@@ -30,20 +31,13 @@ const AboutMe = () => {
             My passion for frontend development shows in the creativity and
             attention to detail I bring to every project I build.
           </p>
-          <div className="skills">
-            {skills.map((skill, index) => {
-              return (
-                <div key={index} className="skill-bar">
-                  <label>{skill.name}</label>
-                  <div className="progress-bar">
-                    <div
-                      className="progress"
-                      style={{ width: skill.level }}
-                    ></div>
-                  </div>
-                </div>
-              );
-            })}
+          <div className="skills-grid">
+            {skills.map((skill, idx) => (
+              <div className="skill-card" key={idx}>
+                <span className="skill-name">{skill.name}</span>
+                <span className="skill-level">{skill.levelText}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

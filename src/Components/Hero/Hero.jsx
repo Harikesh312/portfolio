@@ -10,8 +10,8 @@ function Hero() {
         <span>I'm Harikesh Kumar,</span>a Passionate Frontend Developer.{" "}
       </h1>
       <p>
-        Aspiring frontend developer, sharpening my skills by building real-world
-        projects and exploring modern web technologies.
+        Aspiring frontend developer building real-world projects with HTML, CSS,
+        JavaScript, React Js, and Tailwind Css.
       </p>
 
       <div className="hero-action">
